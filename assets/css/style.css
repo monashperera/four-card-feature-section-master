@@ -1,6 +1,25 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
-
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/poppins-extralight-webfont.woff2') format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-semibold-webfont.woff2') format('woff2');
+    font-display: swap;
+}
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -145,6 +164,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .tool-card h2 {
     margin-bottom: 0.8rem;
+    font-weight: var(--fw-600);
 }
 .tool-card p {
     color: var(--grayish-blue);
